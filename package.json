@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Training",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Mahe Fc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
