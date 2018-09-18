@@ -125,9 +125,77 @@ a:hover {
   color: #fff !important;
   opacity: .75;
 }
+#header {
+  padding: 30px 0;
+  height: 92px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
 
+#header.header-scrolled {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px 0;
+  height: 72px;
+  transition: all 0.5s;
+}
 
+#header #logo {
+  margin-top: -10px;
+}
 
+@media (min-width: 1024px) {
+  #header #logo {
+    padding-left: 60px;
+  }
+}
+
+#header #logo h1 {
+  font-size: 34px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+#header #logo h1 a, #header #logo h1 a:hover {
+  color: #fff;
+  /* padding-left: 10px;
+  border-left: 4px solid #fcc53f; */
+}
+
+#header #logo img {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #header #logo h1 {
+    font-size: 28px;
+  }
+  #header #logo img {
+    max-height: 40px;
+  }
+  #header #logo {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #about-slider h2{
+    font-size:23px;
+    margin-top:80px;
+  }
+  #about-slider p{
+    font-size:18px;
+    margin-top:20px;
+  }
+}
 
 
 hr {
@@ -388,7 +456,8 @@ strong{
 .hi-icon-effect {
 	padding-bottom:30px;
 	padding-left:10px;
-	padding-right:10px;
+  padding-right:10px;
+  position:absolute;
 }
 
 .hi-icon-effect:hover {
@@ -431,7 +500,8 @@ strong{
 }
 
 .text-center p {
-	margin-bottom:30px;
+  margin-bottom:30px;
+
 }
 
 /*************************
@@ -534,7 +604,8 @@ figure.effect-chico:hover img {
 
 #pricing .text-center p {		
 	margin-bottom:50px;
-	padding-bottom:20px;
+  padding-bottom:20px;
+ 
 }
 
 .pricing-area h2 {
