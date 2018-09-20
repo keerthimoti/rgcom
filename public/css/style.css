@@ -42,7 +42,8 @@ h1{
 }
 
 h2{
-  font-size:20px;
+  font-size:30px;
+  color:#EF6C00;
 }
 
 h3{
@@ -240,11 +241,12 @@ a:hover {
     margin-top:20px;
   }
   .about{
-    padding:25px;
+    padding:15px;
   }
   .slider{
     height:120px;
   }
+
 }
 
 hr {
@@ -415,12 +417,12 @@ hr {
 }
 
 #carousel-slider .carousel-control.left i {
-  left:30px;
+  left:5px;
   top: calc(50% - 25px);
 }
 
 #carousel-slider .carousel-control.right i {
-  right: 30px;
+  right: 5px;
   top: calc(50% - 25px);
 }
 
@@ -553,7 +555,16 @@ strong{
   margin-bottom:30px;
 
 }
-
+.block{
+  background-color: #E0E0E0;
+  border-radius:10px;
+}
+@media (max-width: 768px) {
+  .block{
+    width:332px;
+    margin-left:-16px;
+  }
+}
 /*************************
 *******services******
 **************************/
@@ -577,7 +588,7 @@ strong{
 	padding-bottom:20px;
 }
 
-figure.effect-chico img {
+/* figure.effect-chico img {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(1.12);
@@ -588,7 +599,7 @@ figure.effect-chico:hover img {
 	opacity: 0.5;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-}
+} */
 
 /*************************
 *******parallax******
