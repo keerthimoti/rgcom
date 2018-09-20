@@ -559,9 +559,9 @@ strong{
   background-color: #E0E0E0;
   border-radius:10px;
 }
-@media (max-width: 412px) {
+@media (max-width: 768px) {
   .block{
-    width:383px;
+    width:332px;
     margin-left:-16px;
   }
 }
