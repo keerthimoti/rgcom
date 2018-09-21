@@ -559,12 +559,21 @@ strong{
 .block{
   background-color: #E0E0E0;
   border-radius:10px;
+  max-width:550px;
 }
-
-.find{
+.jil{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
+@media only screen and (max-width: 768px) {
+  .block{
+    
+    margin-top:15px;
+  }
+ }
 /*************************
 *******services******
 **************************/
@@ -578,10 +587,15 @@ strong{
 }
 
 .gallery {
-	margin-top:10px;
+	margin-top:20px;
 	margin-bottom:30px;
 }
-
+@media only screen and (max-width: 768px) {
+  .gallery{
+    margin-bottom:30px;
+    margin-top:1px;
+  }
+ }
 #gallery .text-center {
 	padding-top:20px;
 	margin-bottom:50px;
