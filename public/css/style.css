@@ -304,7 +304,7 @@ hr {
 
 .navbar-header a.navbar-brand {
    color:#fff;
-   font-family:'Roboto';
+   font-family:"Montserrat", sans-serif;
 }
 
 .navbar-header a.navbar-brand:hover{
@@ -325,20 +325,20 @@ hr {
 
 .navbar-nav>li{
   margin-left: 20px;
-  padding-bottom: 28px;
+  padding-bottom: 13px;
 }
 
 .navbar-fixed-top .navbar-nav > li > a {
-	padding: 5px 12px;
-	margin: 0;
-	border-radius: 3px;
-	color: #ffd;
-	line-height: 24px;
-	display: inline-block;
-	text-transform:;
-	font-weight:500;
-	font-size:18px;
-	font-family:'Roboto';
+  /* padding: 0px 8px 8px 8px; */
+  padding: 8px 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  outline: none;
 }
 
 .navbar-fixed-top .navbar-nav > li > a:hover{
@@ -365,6 +365,7 @@ hr {
 .navbar-fixed-top .navbar-nav > .open > a:focus {
   background-color: #FF7043;
   color: #fff;
+  
 }
 
 /*************************
@@ -507,8 +508,8 @@ strong{
 
 .hi-icon-effect {
 	padding-bottom:30px;
-	padding-left:10px;
-  padding-right:10px;
+	padding-left:15px;
+  padding-right:15px;
   position:absolute;
 }
 
@@ -531,7 +532,7 @@ strong{
 }
 
 .text-center i {
-	font-size:30px;
+	font-size:35px;
 	margin-top:50px;
 	margin-bottom:30px;
 	color:#fff;
@@ -559,12 +560,11 @@ strong{
   background-color: #E0E0E0;
   border-radius:10px;
 }
-@media (max-width: 768px) {
-  .block{
-    width:332px;
-    margin-left:-16px;
-  }
+
+.find{
+  display: flex;
 }
+
 /*************************
 *******services******
 **************************/
@@ -578,7 +578,7 @@ strong{
 }
 
 .gallery {
-	margin-top:60px;
+	margin-top:10px;
 	margin-bottom:30px;
 }
 
