@@ -593,7 +593,9 @@ strong{
 .read-more-state {
   display: none;
 }
-
+figure {
+  margin: 4px;
+}
 .read-more-target {
   opacity: 0;
   max-height: 0;
@@ -638,7 +640,7 @@ strong{
 *******services******
 **************************/
 #gallery {
-	padding-top:70px;
+	padding-top:50px;
 	padding-bottom:70px;
 	background:#f4f4f4;
 }
@@ -955,13 +957,13 @@ figure.effect-chico:hover img {
 --------------------------------*/
 #testimonials {
   padding: 60px 0;
-  display:flex;
+  
 }
 #testimonials img {
   max-width: 100%;
   opacity: 0.5;
   transition: 0.3s;
-  padding: 15px 0;
+  /* padding: 15px 0; */
 }
 
 #testimonials img:hover {
