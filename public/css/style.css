@@ -961,7 +961,6 @@ figure.effect-chico:hover img {
 }
 #testimonials img {
   max-width: 100%;
-  opacity: 0.5;
   transition: 0.3s;
   /* padding: 15px 0; */
 }
@@ -1298,4 +1297,8 @@ footer {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+.col-sm-3{
+  width: 20%;
 }
