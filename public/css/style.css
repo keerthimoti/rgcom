@@ -1302,3 +1302,16 @@ footer {
 .col-sm-3{
   width: 20%;
 }
+
+#looper{
+  display: none;
+}
+
+@media (max-width: 800px) {
+  #loop{
+    display: none;
+  }
+  #looper{
+    display: unset;
+  }
+}
