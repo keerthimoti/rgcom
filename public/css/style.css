@@ -1042,7 +1042,7 @@ figure.effect-chico:hover img {
 **************************/
 #our-team {
 	padding-top:70px;
-	padding-bottom:70px;
+	padding-bottom:110px;
 	background:#f4f4f4;
 }
 
@@ -1067,8 +1067,64 @@ footer {
 	background:#f4f4f4;
 	padding-bottom:-3px;
 }
-
 #contact {
+  
+   background: #fafafa; 
+   padding-top:60px;
+ 
+}
+
+#contact .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contact .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #FF7043;
+}
+
+#contact .contact-info address, #contact .contact-info p {
+  margin-bottom: 0;
+  color: #000;
+}
+
+#contact .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+}
+
+#contact .contact-info a {
+  color: #000;
+}
+
+#contact .contact-info a:hover {
+  color: #fcc53f;
+}
+
+#contact .contact-address, #contact .contact-phone, #contact .contact-email {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  #contact .contact-address, #contact .contact-phone, #contact .contact-email {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+}
+
+/* #contact {
 	background: #fafafa;
 	padding-top:70px;
 	padding-bottom:80px;
@@ -1139,7 +1195,7 @@ footer {
 	margin-top:10px;
 	border-radius:6px;
 	padding:5px 20px;
-}
+} */
 
 #footer {
   background: #000;
@@ -1165,7 +1221,7 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #fcc53f;
+  border-left: 4px solid #FF7043;
 }
 
 #footer .footer-top .footer-info p {
@@ -1192,7 +1248,7 @@ footer {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #fcc53f;
+  background: #FF7043;
   color: #fff;
 }
 
@@ -1219,7 +1275,7 @@ footer {
 }
 
 #footer .footer-top h4::after {
-  background: #fcc53f;
+  background: #FF7043;
   width: 60px;
 }
 
@@ -1252,7 +1308,7 @@ footer {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #fcc53f;
+  color: #FF7043;
 }
 
 #footer .footer-top .footer-contact {
@@ -1274,7 +1330,7 @@ footer {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #fcc53f;
+  background: #FF7043;
   border: 0;
   width: 35%;
   padding: 6px 0;
